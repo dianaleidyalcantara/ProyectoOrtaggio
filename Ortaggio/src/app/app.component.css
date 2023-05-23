@@ -1,0 +1,207 @@
+.header{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background: #F5DEB3;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+}
+
+.separation{
+  background: white;
+  width: 100%;
+  height: 5px;
+}
+
+.aboutUs{
+  background: #EEE8AA;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.verticaldiv{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-title{
+  font-family: "Century Gothic", serif;
+}
+
+.info-body{
+  font-family: "Century Gothic", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://th.bing.com/th/id/R.794e42f5c5a5451aa22634e55b601b76?rik=6bgzdksV8mSncA&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: #F4A460;
+  border: 0;
+  font-family: "Century Gothic", serif;
+  font-size: 20px;
+}.simple-button:hover{
+  background: #8FBC8F;
+  cursor: pointer;
+ }
+
+ .food{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 350px;
+   background: #FFDAB9;
+   justify-content: space-between;
+ }
+
+ .container{
+   margin-top:25px;
+   width: 200px;
+   height: 300px;
+   margin-left: 40px;
+   margin-right: 40px;
+
+ }
+
+.option-container{
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 80%;
+  align-items: center;
+  text-align: center;
+}
+
+.option-container::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #8B4513;
+  opacity: .7;
+}
+
+.option-title{
+  color: white;
+  font-size: 25px;
+  font-family: "Century Gothic", serif;
+  opacity: 100%;
+  margin-bottom: 50px;
+  margin-top:10px;
+}
+
+.option-title1{
+  color: white;
+  font-size: 25px;
+  font-family: "Century Gothic", serif;
+  opacity: 100%;
+  margin-bottom: 80px;
+  margin-top:10px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  background: #F5DEB3;
+}
+
+.contact-div1{
+  display: flex;
+  width: 100%;
+  height: 70%;
+  flex-direction: row;
+}
+
+.contact-row{
+  display: flex;
+  width: 33%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contac-div2{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+  flex-direction: row;
+}
+
+.contact-title{
+  font-family: "Century Gothic", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-body{
+  font-family: "Century Gothic", serif;
+  margin-bottom: 5px;
+}
+
+.contact-hour{
+  font-family: "Century Gothic", serif;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.derechos{
+  font-family: "Century Gothic", serif;
+  font-size: 18px;
+}
+
+.menu{
+  flex-direction: row;
+  position: relative;
+  width: 50%;
+  height: 500px;
+  background: #90EE90;
+  margin-top: -1400px;
+  margin-left: 350px;
+  border-radius: 10px;
+}

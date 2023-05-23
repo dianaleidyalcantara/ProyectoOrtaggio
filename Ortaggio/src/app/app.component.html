@@ -1,0 +1,180 @@
+<div class="header">
+
+  <div class="logo">
+      <img src="./assets/ortaggio.png" style="width: 626px; height: 478px;" alt="">
+  </div>
+
+</div>
+
+<div class="separation"></div>
+
+<div class="aboutUs">
+
+  <div class="verticaldiv">
+
+    <img src="https://th.bing.com/th/id/R.5ddbf5972eca0b4528917fba5958f113?rik=D1Ae%2fiFOm%2bYgYA&pid=ImgRaw&r=0"
+         style="width: 250px; height: 200px">
+
+  </div>
+
+  <div class="verticaldiv">
+
+    <h1 class="info-title">Sobre nosotros</h1>
+
+    <label class="info-body">
+      Somos una  empresa que respeta la vida, <br> es por eso que nosotros<br>
+      ofrecemos una alternativa más saludable
+    </label>
+
+  </div>
+
+  <div class="verticaldiv">
+
+    <img src="https://th.bing.com/th/id/OIP.LdPSueEZ3eYQj1xfE73QfAHaE8?pid=ImgDet&rs=1"
+         style="width:250px; height: 200px">
+
+  </div>
+
+</div>
+
+<div class="separation"></div>
+
+<div class="options">
+
+  <div class="tarjeta">
+
+    <button class="simple-button"
+            (click)="openMenu()"
+    >Menú</button>
+
+  </div>
+
+  <div class="tarjeta">
+
+    <button class="simple-button">Reservación</button>
+
+  </div>
+
+</div>
+
+<div class="separation"></div>
+
+<div class="food">
+
+  <div class="container">
+
+    <img src="https://www.cilantroandcitronella.com/wp-content/uploads/2016/07/cherry-tomatoes_1_04.jpg"
+         style="height: 100%; width:100%; border-radius: 20px;">
+
+  </div>
+
+  <div class="container">
+
+    <img src="https://th.bing.com/th/id/OIP.zfuFbKHzD85FkxP60a7ZHAHaKD?pid=ImgDet&w=700&h=950&rs=1"
+         style="height: 100%; width:100%; border-radius: 20px;">
+
+  </div>
+
+  <div class="container">
+
+    <img src="https://th.bing.com/th/id/R.c2038428322e487fd2c4631a68438a59?rik=36ZRb6tT5P3HZA&pid=ImgRaw&r=0"
+         style="height: 100%; width:100%; border-radius: 20px;">
+
+  </div>
+  <div class="container">
+
+    <img src="https://th.bing.com/th/id/OIP.rXQntGgxP1831hZ3ylqyNwHaKW?pid=ImgDet&w=750&h=1049&rs=1"
+         style="height: 100%; width:100%; border-radius: 20px;">
+
+  </div>
+
+</div>
+
+<div class="separation"></div>
+
+<div class="options">
+
+  <div class="tarjeta">
+
+    <div class="option-container">
+
+      <label class="option-title">¿Quieres formar parte de Ortaggio?</label>
+
+      <button class="simple-button">Registrarse</button>
+    </div>
+
+  </div>
+
+  <div class="tarjeta">
+
+    <div class="option-container">
+
+      <div class="option-title1">¿Ya formas parte?</div>
+
+      <button class="simple-button">Inicia sesión</button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="separation"></div>
+
+<div class="contact">
+
+  <div class="contact-div1">
+
+    <div class="contact-row">
+
+      <label class="contact-title">CONTACTO</label>
+
+      <p class="contact-body">dianaleidy20@gmail.com</p>
+
+      <p class="contact-body">2713263349</p>
+
+      <p class="contact-body">@didialcdv </p>
+
+      <p class="contact-body">Diana Alcántara</p>
+
+    </div>
+
+    <div class="contact-row">
+
+      <img src="./assets/ortaggio.png" style="width: 400px; height: 350px;">
+
+    </div>
+
+    <div class="contact-row">
+
+      <label class="contact-title">HORARIOS</label>
+
+      <p class="contact-hour" style="font-weight: bold;">Lunes-Viernes</p>
+
+      <p class="contact-hour">11:00 am - 6:00 pm</p>
+
+      <p class="contact-hour" style="font-weight: bold;">Sábados</p>
+
+      <p class="contact-hour">10:00 am - 4:00 pm</p>
+
+      <p class="contact-hour" style="font-weight: bold;">Domingos</p>
+
+      <p class="contact-hour">10:00 am - 2:00 pm</p>
+
+
+
+    </div>
+
+  </div>
+
+  <div class="contac-div2">
+
+    <label class="derechos">Esta página es para uso educativo</label>
+
+  </div>
+
+</div>
+
+<div class="menu" *ngIf="isMenuShowing">
+  <app-menu (Cerrar)="closeMenu()"></app-menu>
+</div>

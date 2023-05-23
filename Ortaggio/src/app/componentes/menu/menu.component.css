@@ -1,0 +1,106 @@
+.modal{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.column1{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.column2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish{
+  width: 100%;
+  height: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.imagen{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  flex-direction: column;
+}
+
+.title{
+  font-family: "Century Gothic", serif;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.subtitle{
+  font-family: "Century Gothic", serif;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.body{
+  font-family: "Century Gothic", serif;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.exit-container{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.exit-button{
+  margin-top: 2px;
+  margin-right: 5px;
+  width: 20%;
+  height: 25%;
+  font-size: 20px;
+  border-radius: 100%;
+  background: #90EE90;
+  border: none;
+}.exit-button:hover{
+  background: #32CD32;
+  cursor: pointer;
+ }
+
+ .drinks{
+   width: 100%;
+   height: 70%;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .drinks-title{
+   font-family: "Century Gothic", serif;
+   font-size: 25px;
+   font-weight: bolder;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ .drinks-body{
+   font-family: "Century Gothic", serif;
+   font-size: 18px;
+   margin-top: 5px;
+ }
